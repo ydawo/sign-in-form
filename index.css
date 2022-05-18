@@ -1,22 +1,26 @@
 span {
   color: red;
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: large;
 }
-
 label {
   display: block;
   margin: 8px;
+  font-family: "Roboto", sans-serif;
 }
 button {
   display: block;
   margin-top: 15px;
   border: none;
-  width: 300px;
-  height: 30px;
+  width: 450px;
+  height: 3rem;
   background-color: red;
   color: white;
   border-radius: 5px;
   cursor: pointer;
+  font-weight: bolder;
+  font-size: 25px;
 }
 div {
   width: 300px;
@@ -25,12 +29,20 @@ div {
 }
 h1 {
   margin-bottom: -8px;
+  font-size: 45px;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
 }
-
 input {
-  width: 300px;
-  height: 30px;
+  width: 450px;
+  height: 3rem;
   border: none;
   background-color: rgba(169, 169, 169, 0.102);
   border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: medium;
+}
+label {
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
 }
