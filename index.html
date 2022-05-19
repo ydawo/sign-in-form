@@ -4,12 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css" />
+    <title>Sign in</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap"
       rel="stylesheet"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,11 +17,19 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
+    <header>
+      <img src="./formspree-removebg-preview.png" alt="" />
+    </header>
+
     <div>
-      <h1>Sign in</h1>
-      <p>Or <span>register for an account</span></p>
+      <span id="sign">Sign in</span>
+      <p>
+        <span class="Or"> Or </span
+        ><a href="#"><span>register for an account</span></a>
+      </p>
       <form action="https://formspree.io/f/mbjwqbyz" method="post">
         <label for="Email"> Email adress</label>
         <input type="email" name="Email" id="Email" /><br />
@@ -30,7 +37,20 @@
         <input type="password" name="Password" id="Password" /><br />
         <button type="submit">Sign in</button><br />
       </form>
-      <span>Forgot your password?</span>
+      <br />
+      <a href="#"><span>Forgot your password?</span></a>
     </div>
+    <footer>
+      <p id="social">
+        <span class="social">Twitter | Facebook | GitHub</span>
+      </p>
+      <span class="last"
+        >© 2022 Formspree, Inc.<br />
+        Pleas check out our<span class="color2">
+          Help Site <span class="fasle">,</span> Terms of Use</span
+        >, and
+        <span class="color">Privacy Policy</span>
+      </span>
+    </footer>
   </body>
 </html>
